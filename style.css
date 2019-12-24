@@ -1,24 +1,23 @@
 #box{
-    width: 100%;
-    height: 100%;
+    width: 500px;
+    height: 500px;
     background: rgb(243, 44, 44);
     position: absolute;
 }
 
 #head{
-    width: 200px;
-    height: 180px;
+    width: 40%;
+    height: 37.5%;
     border-radius: 50%;
     background: black;
     position: absolute;
-    right: 45%;
-    top: 25%;
-    /* overflow: hidden; */
+    right: 35%;
+    top: 30%;
 }
 
 #face{
-    width: 150px;
-    height: 140px;
+    width: 76%;
+    height: 79%;
     border-radius: 50%;
     background: pink;
     position: absolute;
@@ -28,26 +27,26 @@
 }
 
 #cheek{
-    width: 150px;
-    height: 75px;
+    width: 31%;
+    height: 15%;
     border-radius: 50%;
     background: pink;
     border: 2px solid black;
     position: absolute;
     z-index: 5;
-    right: 49%;
-    top: 44%;
+    right: 45%;
+    top: 52%;
     transform: rotate(15deg);
 }
 
 #ear{
-    width: 34px;
-    height: 25px;
+    width: 5.5%;
+    height: 4.5%;
     border-radius: 50%;
     background: pink;
     position: absolute;
-    right: 47%;
-    top: 51%;
+    right: 41%;
+    top: 60%;
     border: solid black 2px;
     z-index: 6;
     transform: rotate(-5deg);
@@ -79,8 +78,8 @@
 }
 
 #forehead-hair{
-    width: 50px;
-    height: 60px;
+    width: 24.5%;
+    height: 32%;
     position: absolute;
     transform: rotate(90deg) skew(35deg);
     background: black;
@@ -89,24 +88,24 @@
 }
 
 #left-hair{
-    width: 65px;
-    height: 95px;
+    width: 13%;
+    height: 17%;
     position: absolute;
     transform: rotate(88deg) skew(40deg);
     background: black;
-    left: 43.3%;
-    top: 20%;
+    left: 34.5%;
+    top: 25%;
 
 }
 
 #right-hair{
-    width: 65px;
-    height: 65px;
+    width: 13%;
+    height: 13%;
     position: absolute;
     transform: rotate(10deg) skew(-55deg);
     background: black;
     left: 50%;
-    top: 44%;
+    top: 53%;
 }
 
 #shine{
@@ -136,9 +135,9 @@
 #left-eyebrow{
     position: absolute;
     left: 9%;
-    height: 70px;
+    height: 46.5%;
     top: 15%;
-    width: 25px;
+    width: 17%;
     transform: rotate(12deg);
     border: solid transparent 2px;
     border-radius: 50%;
@@ -148,7 +147,7 @@
 #right-eyebrow{
     position: absolute;
     left: 52%;
-    height: 85px;
+    height: 56.5%;
     top: 18%;
     width: 30px;
     transform: rotate(14deg);
@@ -196,21 +195,21 @@
     transform: rotate(20deg);
     z-index: 11;
     border-radius: 50%;
-    width: 15px;
-    height: 10px;
+    width: 8%;
+    height: 5%;
     left: 13%;
     top: 68%;
 }
 
 #mouth{
-    width: 15px;
-    height: 39px;
+    width: 4%;
+    height: 7%;
     border-radius: 50%;
     background: rgb(243, 85, 138);
     border: black solid 2px;
     position: absolute;
-    left: 44%;
-    top: 48%;
+    left: 35%;
+    top: 57.5%;
     z-index: 7;
     transform: rotate(17deg);
     overflow: hidden;
@@ -218,10 +217,10 @@
 
 #upper-lip{
     position: absolute;
-    left: 43%;
-    top: 46%;
-    width: 37px;
-    height: 33px;
+    left: 33%;
+    top: 56%;
+    width: 8%;
+    height: 5%;
     border-radius: 40%;
     border: solid transparent 2px;
     border-bottom-color: black;
